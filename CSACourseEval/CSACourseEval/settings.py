@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'professors',
+    # 'professors',
     # 'users',
 ]
 
@@ -125,5 +125,3 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, "static"), ]
 # specify media root for user uploaded files,
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
-
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "professors.settings")
